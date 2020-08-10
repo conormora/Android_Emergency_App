@@ -1,5 +1,5 @@
 # Emergency
-An Android app that will allow users to store their financial information and documents that can be accessed by designated next of kins promptly and seamlessly
+An Android app that will allow users to scan financial documents, upload a copy in box, and grant access to family members in case of an emergency promptly and seamlessly
 
 ## Table of Contents
 * [Install](#install)
