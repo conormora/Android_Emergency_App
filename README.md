@@ -23,5 +23,4 @@ Two main functions of the app:
 * Data access
   - Next-of-kin access [WIP]
 
-## License
-[WIP]
+
