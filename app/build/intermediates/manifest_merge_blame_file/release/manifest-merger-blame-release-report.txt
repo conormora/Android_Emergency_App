@@ -1,0 +1,279 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emergency"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:15:5-65
+21-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:15:22-62
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:26:22-107
+30
+31    <application
+31-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:17:5-68:19
+32        android:allowBackup="true"
+32-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:18:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:19:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:20:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:21:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:22:9-35
+38        android:theme="@style/AppTheme"
+38-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:23:9-40
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:24:9-44
+40
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
+49        <meta-data
+49-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:34:9-36:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:35:13-58
+51            android:value="@string/google_maps_key" />
+51-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:36:13-52
+52
+53        <activity
+53-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:38:9-40:68
+54            android:name="com.example.emergency.MapsActivity"
+54-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:39:13-41
+55            android:label="@string/title_activity_maps" />
+55-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:40:13-56
+56        <activity android:name="com.example.emergency.cameraScan" />
+56-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:41:9-48
+56-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:41:19-45
+57        <activity android:name="com.example.emergency.access" />
+57-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:42:9-44
+57-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:42:19-41
+58        <activity android:name="com.example.emergency.DriveUpload" />
+58-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:43:9-49
+58-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:43:19-46
+59        <activity android:name="com.example.emergency.Confirmed" />
+59-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:44:9-47
+59-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:44:19-44
+60        <activity android:name="com.example.emergency.settings" />
+60-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:45:9-46
+60-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:45:19-43
+61        <activity android:name="com.example.emergency.Scan" />
+61-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:46:9-42
+61-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:46:19-39
+62        <activity android:name="com.example.emergency.textUpload" />
+62-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:47:9-48
+62-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:47:19-45
+63        <activity android:name="com.example.emergency.choose" />
+63-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:48:9-44
+63-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:48:19-41
+64        <activity android:name="com.example.emergency.insurance" />
+64-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:49:9-47
+64-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:49:19-44
+65        <activity android:name="com.example.emergency.upload" />
+65-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:50:9-44
+65-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:50:19-41
+66        <activity android:name="com.example.emergency.MainActivity" >
+66-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:51:9-57:20
+66-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:51:19-47
+67            <intent-filter>
+67-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:52:13-56:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:53:17-69
+68-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:53:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:55:17-77
+70-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:55:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <provider
+75            android:name="com.example.emergency.GenericFileProvider"
+75-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:60:13-48
+76            android:authorities="com.example.emergency.provider"
+76-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:61:13-60
+77            android:exported="false"
+77-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:62:13-37
+78            android:grantUriPermissions="true" >
+78-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:63:13-47
+79            <meta-data
+79-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:64:13-66:57
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:65:17-67
+81                android:resource="@xml/provider_paths" />
+81-->C:\Users\Conor Mora\Desktop\Emergency\app\src\main\AndroidManifest.xml:66:17-55
+82        </provider>
+83        <!-- Needs to be explicitly declared on P+ -->
+84        <uses-library
+84-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+85            android:name="org.apache.http.legacy"
+85-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+86            android:required="false" />
+86-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+87
+88        <activity
+88-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:15:9-18:39
+89            android:name="com.box.androidsdk.content.auth.OAuthActivity"
+89-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:16:13-73
+90            android:configChanges="orientation|screenSize"
+90-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:17:13-59
+91            android:exported="true" />
+91-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:18:13-36
+92        <activity
+92-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:19:9-21:51
+93            android:name="com.box.androidsdk.content.auth.BlockedIPErrorActivity"
+93-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:20:13-82
+94            android:launchMode="singleInstance" />
+94-->[com.box:box-android-sdk:4.2.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2a4d9a6848f6fcfebc292fb97ef6e3eb\jetified-box-android-sdk-4.2.3\AndroidManifest.xml:21:13-48
+95
+96        <service
+96-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:27:9-33:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:28:13-84
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+99            android:exported="false" >
+99-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:29:13-37
+100            <meta-data
+100-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:30:13-32:85
+101                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+101-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:31:17-139
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d5552a3996f76de5fed58bcb0a1e63b5\jetified-play-services-measurement-api-17.4.3\AndroidManifest.xml:32:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+104                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+107                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+107-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\2ebd4a41fa7c7daceab7065f37bffed6\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+109        </service>
+110
+111        <receiver
+111-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+112            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+112-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+113            android:exported="true"
+113-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+114            android:permission="com.google.android.c2dm.permission.SEND" >
+114-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+115            <intent-filter>
+115-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+116                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+116-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+116-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\13d8d8b1efb3455f1d2cb9103ff3556f\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+117            </intent-filter>
+118        </receiver>
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+124
+125        <receiver
+125-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:29:9-33:20
+126            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+126-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:30:13-85
+127            android:enabled="true"
+127-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:31:13-35
+128            android:exported="false" >
+128-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:32:13-37
+129        </receiver>
+130
+131        <service
+131-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:35:9-38:40
+132            android:name="com.google.android.gms.measurement.AppMeasurementService"
+132-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:36:13-84
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:37:13-35
+134            android:exported="false" />
+134-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:38:13-37
+135        <service
+135-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:39:9-43:72
+136            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+136-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:40:13-87
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:41:13-35
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:42:13-37
+139            android:permission="android.permission.BIND_JOB_SERVICE" />
+139-->[com.google.android.gms:play-services-measurement:17.4.3] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\8e50c4481e121e43b9fce9973d991103\jetified-play-services-measurement-17.4.3\AndroidManifest.xml:43:13-69
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+143            android:authorities="com.example.emergency.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+144            android:exported="false"
+144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+145            android:initOrder="100" />
+145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+146
+147        <meta-data
+147-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+148            android:name="com.google.android.gms.version"
+148-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+149            android:value="@integer/google_play_services_version" />
+149-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Conor Mora\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+150    </application>
+151
+152</manifest>

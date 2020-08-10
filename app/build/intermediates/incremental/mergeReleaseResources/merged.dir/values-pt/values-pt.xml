@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="blocked_ip_error_message">Você está tentando fazer login no Box de um local que ainda não foi aprovado pelo seu administrador. Fale com seu administrador para solucionar este problema.</string>
+    <string name="boxsdk_Authenticating">Autenticando</string>
+    <string name="boxsdk_Authentication_fail">Falha na autenticação</string>
+    <string name="boxsdk_Authentication_fail_forbidden">Entre em contato com seu administrador para autorizar este dispositivo.</string>
+    <string name="boxsdk_Authentication_fail_url_mismatch">O URL de redirecionamento não é válido</string>
+    <string name="boxsdk_Go_back">Voltar</string>
+    <string name="boxsdk_Please_wait">Aguarde…</string>
+    <string name="boxsdk_Security_Warning">Aviso de segurança</string>
+    <string name="boxsdk_Select_an_account_to_use">Selecione uma conta a ser usada</string>
+    <string name="boxsdk_There_are_problems_with_the_security_certificate_for_this_site">Há problemas com o certificado de segurança para este site.</string>
+    <string name="boxsdk_Use_a_different_account">Use uma conta diferente</string>
+    <string description="" name="boxsdk_alert_dialog_cancel">Cancelar</string>
+    <string description="" name="boxsdk_alert_dialog_ok">Enviar</string>
+    <string description="" name="boxsdk_alert_dialog_password">Senha</string>
+    <string description="" name="boxsdk_alert_dialog_text_entry">Este site ou aplicativo está solicitando autenticação.</string>
+    <string description="" name="boxsdk_alert_dialog_username">Nome de usuário</string>
+    <string description="OK on buttons" name="boxsdk_button_ok">OK</string>
+    <string description="OK on buttons" name="boxsdk_button_okay">OK</string>
+    <string description="size with abbreviation for bytes used in folder list" name="boxsdk_bytes">%4.0f B</string>
+    <string name="boxsdk_common_name">nome comum:</string>
+    <string name="boxsdk_details">Detalhes</string>
+    <string name="boxsdk_error_fatal_refresh">Você foi desconectado.</string>
+    <string name="boxsdk_error_network_connection">Não foi possível detectar uma conexão de rede</string>
+    <string name="boxsdk_error_terms_of_service">O administrador alterou seus TOS. Você deve efetuar login e aceitar os TOS para continuar.</string>
+    <string name="boxsdk_expires_on">expira em:</string>
+    <string description="size in binary gigabyte  1024 * 1024 mbytes used in folder list" name="boxsdk_gigabytes">%4.1f GB</string>
+    <string name="boxsdk_issued_by">emitido por:</string>
+    <string name="boxsdk_issued_on">emitido em:</string>
+    <string name="boxsdk_issued_to">emitido para:</string>
+    <string description="size in binary kilobytes  1024 bytes used in folder list" name="boxsdk_kilobytes">%4.1f KB</string>
+    <string description="size in binary megabyte  1024 * 1024 kbytes used in folder list" name="boxsdk_megabytes">%4.1f MB</string>
+    <string name="boxsdk_no_offline_access">Sem acesso offline</string>
+    <string name="boxsdk_no_offline_access_detail">Conexão de rede não detectada.</string>
+    <string name="boxsdk_no_offline_access_todo">Para fazer login, conecte-se a uma rede WiFi ou de dados móveis.</string>
+    <string name="boxsdk_org_name">nome da organização:</string>
+    <string name="boxsdk_org_unit">unidade da organização:</string>
+    <string name="boxsdk_ssl_error_details">Exibir detalhes</string>
+    <string name="boxsdk_ssl_error_warning_DATE_INVALID">A data do certificado é inválida.</string>
+    <string name="boxsdk_ssl_error_warning_EXPIRED">O certificado expirou.</string>
+    <string name="boxsdk_ssl_error_warning_ID_MISMATCH">Nomes de host incompatíveis.</string>
+    <string name="boxsdk_ssl_error_warning_INVALID">Ocorreu um erro genérico.</string>
+    <string name="boxsdk_ssl_error_warning_NOT_YET_VALID">O certificado ainda não é válido.</string>
+    <string name="boxsdk_ssl_error_warning_UNTRUSTED">A autoridade do certificado não é confiável.</string>
+    <string name="boxsdk_ssl_should_not_proceed">Você não deve continuar, principalmente se nunca tiver visto esse aviso antes nesse site.</string>
+    <string description="size in binary terabyte  1024 * 1024 gbytes used in folder list" name="boxsdk_terabytes">%4.1f TB</string>
+    <string name="boxsdk_unable_to_connect">Não foi possível conectar</string>
+    <string name="boxsdk_unable_to_connect_detail">Não foi possível se conectar à sua rede.</string>
+    <string name="boxsdk_unable_to_connect_todo">Verifique sua conexão de rede e tente novamente.</string>
+    <string name="boxsdk_validity_period">período de validade:</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>
